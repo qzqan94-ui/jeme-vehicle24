@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
@@ -61,6 +61,10 @@ html, body {
   border-radius: 10px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
+.markdown-body table {
+    display: block; 
+    width: 100%;
+    overflow: auto;}
 
 /*------------------------------
   العناوين والنصوص
@@ -352,8 +356,9 @@ table td, table th {
     font-size: 14px;
     border: 1px solid #000;
   }
-  markdown-body table {
-  
+  body table {
+    display: block; 
+    width: 100%;
     overflow: auto;}
 
   .result-page th, 
