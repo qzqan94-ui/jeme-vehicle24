@@ -1,5 +1,4 @@
 [Untitled-1.html](https://github.com/user-attachments/files/23152243/Untitled-1.html)
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
