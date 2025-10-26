@@ -62,7 +62,7 @@ html, body {
   box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
 .markdown-body table {
-    /* display: block; */
+    display: block; 
     width: 100%;
     overflow: auto;}
 /*------------------------------
