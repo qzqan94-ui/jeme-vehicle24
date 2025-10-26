@@ -1,4 +1,4 @@
-<!DOCTYPE html>11
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
@@ -220,7 +220,7 @@ table td, table th {
   الصفحة النهائية (نتائج)
 ------------------------------*/
 .result-page {
-  display: block;
+  display: none;
   margin-top: 10px;
   width: 100%;
   max-width: 100%;
