@@ -1,4 +1,4 @@
-[Untitled-1.html](https://github.com/user-attachments/files/23152243/Untitled-1.html)
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
@@ -61,7 +61,10 @@ html, body {
   border-radius: 10px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
-
+.markdown-body table {
+    /* display: block; */
+    width: 100%;
+    overflow: auto;}
 /*------------------------------
   العناوين والنصوص
 ------------------------------*/
@@ -343,13 +346,11 @@ table td, table th {
 
 <style>
   /* ✅ تنسيق عام للجدول داخل صفحة النتيجة */
-  .result-page {
-    overflow-x: auto; /* يسمح بالتمرير الأفقي في حال كان الجدول عريض */
-  }
+     /* يسمح بالتمرير الأفقي في حال كان الجدول عريض */
 
   .result-page table {
-    width: 150%;             /* 👈 يمكنك تغييرها إلى 100% أو 80% حسب رغبتك */
-    margin: 5-px auto;      /* توسيط الجدول في الصفحة */
+    width: 100%;             /* 👈 يمكنك تغييرها إلى 100% أو 80% حسب رغبتك */
+    margin: 50 auto;      /* توسيط الجدول في الصفحة */
     border-collapse: collapse;
     font-size: 14px;
     border: 1px solid #000;
@@ -733,7 +734,7 @@ function renderResult(){
 
         <td style="text-align: right;">
   <span class="signature2">التوقيع:</span>
-
+</td>
 
       </tr>
     </table>
