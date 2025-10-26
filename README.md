@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
@@ -62,7 +62,7 @@ html, body {
   box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
 .markdown-body table {
-    width: 100%;
+   
     overflow: auto;}
 
 /*------------------------------
@@ -220,7 +220,7 @@ table td, table th {
   الصفحة النهائية (نتائج)
 ------------------------------*/
 .result-page {
-  display: none;
+  display: block;
   margin-top: 10px;
   width: 100%;
   max-width: 100%;
@@ -738,6 +738,7 @@ function renderResult(){
 
       </tr>
     </table>
+    </div>
 
     
 
