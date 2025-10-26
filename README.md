@@ -1,5 +1,4 @@
-
-
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
@@ -62,10 +61,7 @@ html, body {
   border-radius: 10px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
-.markdown-body table {
-    display: block; 
-    width: 100%;
-    overflow: auto;}
+
 /*------------------------------
   العناوين والنصوص
 ------------------------------*/
@@ -350,12 +346,15 @@ table td, table th {
      /* يسمح بالتمرير الأفقي في حال كان الجدول عريض */
 
   .result-page table {
-    width: 100%;             /* 👈 يمكنك تغييرها إلى 100% أو 80% حسب رغبتك */
-    margin: 50 auto;      /* توسيط الجدول في الصفحة */
+              /* 👈 يمكنك تغييرها إلى 100% أو 80% حسب رغبتك */
+        /* توسيط الجدول في الصفحة */
     border-collapse: collapse;
     font-size: 14px;
     border: 1px solid #000;
   }
+  markdown-body table {
+  
+    overflow: auto;}
 
   .result-page th, 
   .result-page td {
