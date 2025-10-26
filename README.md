@@ -350,7 +350,7 @@ table td, table th {
 
   .result-page table {
     width: 90%;             /* 👈 يمكنك تغييرها إلى 100% أو 80% حسب رغبتك */
-    margin: 20px auto;      /* توسيط الجدول في الصفحة */
+    margin: 5-px auto;      /* توسيط الجدول في الصفحة */
     border-collapse: collapse;
     font-size: 14px;
     border: 1px solid #000;
