@@ -61,9 +61,6 @@ html, body {
   border-radius: 10px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
-.markdown-body table {
-   
-    overflow: auto;}
 
 /*------------------------------
   العناوين والنصوص
@@ -75,6 +72,7 @@ h1 {
 }
 
 label {
+  display: block;
   text-align: right;
   margin: 8px 0;
   font-weight: 600;
@@ -185,7 +183,7 @@ button.secondary {
 .fuel-box img,
 .result-page .car-container img,
 .result-page .fuel-container img {
-  
+  display: block;
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -194,6 +192,7 @@ button.secondary {
 /* Result page: container should be block and positioned relative for markers */
 .result-page .car-container,
 .result-page .fuel-container {
+  display: block;
   max-width: 520px;
   margin: 0 auto;
   position: relative; /* so .marker absolute positions are relative to this box */
@@ -283,6 +282,7 @@ table td, table th {
 }
 
 .step.active {
+  display: block;
   animation: fade 0.25s ease-in-out;
 }
 
@@ -353,6 +353,7 @@ table td, table th {
     border: 1px solid #000;
   }
   body table {
+    display: ; 
     width: 100%;
     overflow: auto;}
 
@@ -738,7 +739,6 @@ function renderResult(){
 
       </tr>
     </table>
-    </div>
 
     
 
